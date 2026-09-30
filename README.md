@@ -1,3 +1,4 @@
+![CI](https://github.com/saisusmithamullapudi-svg/salesforce-apex-trigger-framework/actions/workflows/main.yml/badge.svg)
 # Salesforce Apex Trigger Framework
 
 A metadata-driven Apex trigger framework with bulk-safe synchronous logic and asynchronous follow-up work (Queueable, Batch, Schedulable).
