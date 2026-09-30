@@ -1,1 +1,9 @@
-
+.sf/
+.sfdx/
+node_modules/
+coverage/
+.env
+*.key
+.DS_Store
+.vscode/settings.json
+.idea/
