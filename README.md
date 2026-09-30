@@ -93,7 +93,7 @@ public with sharing class OpportunityTriggerHandler extends TriggerHandler {
 | `bypassSkipsHandler` / `metadataCanDisableHandler` | Both off-switches work |
 | `correctsDriftForAllAccounts` | Batch repairs counts after a bypassed load |
 
-Apex tests need an org; CI runs them in a scratch org when the Dev Hub secrets are configured (see `.github/workflows/ci.yml`). Formatting and secret scanning run on every push without an org.
+Apex tests need an org and are run locally with npm run test:apex. GitHub Actions (.github/workflows/main.yml) checks Apex formatting on every push.
 
 ## Security considerations
 
